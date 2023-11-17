@@ -1,0 +1,18 @@
+CREATE DATABASE ALUNO1730364272;
+use ALUNO1730364272;
+
+CREATE TABLE CADASTRO   (
+    nome        VARCHAR(30),
+    email       VARCHAR(50),
+    DDD         CHAR(2),
+    telefone    CHAR(12),
+    dataNasc    DATE,
+    sexo        CHAR(1),
+    estadoCivil VARCHAR(20),
+    dataAgen    DATE,
+    horaAgen    TIME,
+    numero      VARCHAR(20)     PRIMARY KEY,
+    fotos       VARCHAR(99),
+    doencas     VARCHAR(20),
+    descricao   TEXT
+);
